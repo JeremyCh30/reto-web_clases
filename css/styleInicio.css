@@ -7,14 +7,13 @@ html{
 header{
     background-image: url(../imgs/black-and-white-1280.jpg);
     background-size: cover;
-    height: 630px;
+    height: 635px;
     padding-top: 20px;
 }
 header nav{
-    width: 330px;
+    width: 300px;
     float: right;
     font-size: 18px;
-    margin-top: 15px;
 }
 header nav a{
     color: #deb887;
@@ -26,11 +25,9 @@ header nav a:hover{
 }
 /*modificar un estilo del dropdown de bs, se utiliza !important para sobreescribir los estilos o inidicar que use priorida este*/
 .nav-link {
-    display: inline !important;
-    padding: 0px !important;
+    display: inline;
+    padding: 0px;
 }
-
-
 header img{
     width: 230px;
     height: 230px;
@@ -38,19 +35,19 @@ header img{
     margin-left: -30px;
 }
 #inicio{
-    width: 350px;
-    margin-top: 240px;
-    margin-left: 70px;
+    width:400px;
+    margin-top: 270px;
+    margin-left: 65px;
     color: #ffffff;
     font-family: 'Great Vibes', cursive;
 }
 #inicio h1{
-    font-size: 30px;
+    font-size: 34px;
 }
 #inicio p{
-    font-size: 20px;
+    margin-top: 10px;
+    font-size: 24px;
 }
-
 /*Fin estilos Header*/
 
 /*Inicio estilos Main*/
