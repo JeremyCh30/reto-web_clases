@@ -1,7 +1,60 @@
+html{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 18px;
+    
+}
 /*Inicio estilos Header*/
+header{
+    background-image: url(../imgs/black-and-white-1280.jpg);
+    background-size: cover;
+    height: 630px;
+    padding-top: 20px;
+}
+header nav{
+    width: 330px;
+    float: right;
+    font-size: 18px;
+    margin-top: 15px;
+}
+header nav a{
+    color: #deb887;
+    text-decoration: none;
+    margin-right:8px;
+}
+header nav a:hover{
+    color: #ff9224;
+}
+/*modificar un estilo del dropdown de bs, se utiliza !important para sobreescribir los estilos o inidicar que use priorida este*/
+.nav-link {
+    display: inline !important;
+    padding: 0px !important;
+}
+
+
+header img{
+    width: 230px;
+    height: 230px;
+    margin-top: -25px;
+    margin-left: -30px;
+}
+#inicio{
+    width: 350px;
+    margin-top: 240px;
+    margin-left: 70px;
+    color: #ffffff;
+    font-family: 'Great Vibes', cursive;
+}
+#inicio h1{
+    font-size: 30px;
+}
+#inicio p{
+    font-size: 20px;
+}
+
 /*Fin estilos Header*/
 
 /*Inicio estilos Main*/
+/*font-family: 'Caveat', cursive; comentario*/
 /*Fin estilos Main*/
 
 /*Inicio estilos footer*/
